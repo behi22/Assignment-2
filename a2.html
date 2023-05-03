@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Assignment 2</title>
+		<meta charset="utf-8">
+		<style type="text/css" src="override.css"></style>
+	</head>
+	<body>
+		<div id="mathProblem">
+			<!-- leave this div empty!-->
+		</div>
+		
+		<script>
+			let myDiv = document.getElementById("mathProblem");
+			//fill in the code here to generate two random numbers
+            let a;
+            let b; 
+            let c;
+            a=Math.random();
+            a*=10;
+            b=Math.random();
+            b*=10;
+            a=Math.round(a);
+            b=Math.round(b);
+            a+=10;
+            b+=1;
+            c=a-b;
+			//then write your world problem!
+			myDiv.innerHTML = "Q: John has "+a+" pens and lends "+b+" of them to his friend. How many pens does he have left? <br> A: " + c;
+		</script>
+	</body>
+</html>

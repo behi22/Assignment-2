@@ -1,0 +1,105 @@
+1_1. steps:
+"Dog2" > 3 && true
+false && true
+false
+final solution : false
+
+1_2. steps:
+true && true
+true
+final solution : true
+
+1_3. steps:
+firstName === "trouble"
+lastName === "double"
+(false || false) && (false || false)
+false && false
+false
+final solution : false
+
+1_4. steps: 
+a == 21
+a = a + 3 = 21 + 3 = 24
+a == 24
+b == 5
+b = b - a = 5 - 24 = -19
+b == -19
+(24 < 1) || (-19 >= 1) && (a !=b)
+false || false && true
+false && true
+false
+final solution : false
+
+1_5. final solution :
+The alligator escaped. It was last seen on a boat
+
+1_6. steps:
+George == orge
+nickname == Conquerer
+combinedName == orge Conquerer
+false || true && false || false
+true && false || false
+false || false
+false
+final solution : false
+
+1_7. steps:
+(fasle && true) || (false || false)
+false || false
+false 
+final solution : false
+
+1_8. steps:
+(552+12/2+22) % 2
+(552+6+22) % 2
+(558+22) % 2
+580 % 2
+0
+0 === 1
+false
+final solution : false
+
+1_9. steps:
+(true || false) || false
+true || false
+true
+final solution : true
+
+1_10. steps:
+true && true && true && true
+true
+final solution : true
+
+1_11. final solution :
+The variable bigCar has the value : true , while variable bearTrap is undefined If I compare bearTrap with undefined I get True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
